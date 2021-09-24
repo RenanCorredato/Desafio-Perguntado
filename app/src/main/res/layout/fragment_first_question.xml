@@ -1,10 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/default_padding"
     tools:context=".FirstQuestionFragment">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/question_one"
+        android:textSize="@dimen/default_question" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="@string/answers" />
 
 
-</FrameLayout>
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:checkedButton="@+id/radio_button_1">
+
+        <RadioButton
+            android:id="@+id/radio_button_1"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/radios_selector"
+            android:text="@string/answers" />
+
+        <RadioButton
+            android:id="@+id/radio_button_2"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/radios_selector"
+            android:text="@string/answers" />
+
+        <RadioButton
+
+            android:id="@+id/radio_button_3"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/radios_selector"
+            android:text="@string/answers" />
+
+        <RadioButton
+            android:id="@+id/radio_button_4"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/radios_selector"
+            android:text="@string/answers" />
+
+
+    </RadioGroup>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_respond"
+        android:layout_height="53dp"
+        android:layout_width="match_parent"
+        android:text="Responder"
+        android:textAllCaps="false"
+        app:cornerRadius="50dp"
+        android:backgroundTint="@color/gray_light"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

@@ -3,32 +3,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center"
+    android:padding="23dp"
+    android:background="@color/blue_light"
     tools:context=".FirstScreenFragment">
 
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="329dp"
+        android:layout_height="194dp"
+        android:focusable="false"
+        app:cardCornerRadius="30dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/question_answers"
-        android:textStyle="bold"
-        android:textSize="25sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/instruction"
-        android:textStyle="bold"
-        android:textSize="15sp"
-        android:layout_marginTop="32dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_answers"
+                android:textStyle="bold"
+                android:textColor="@color/blue_tema"
+                android:textSize="24sp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginLeft="41dp"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/start"
-        android:textAllCaps="false"
-        android:layout_marginTop="32dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instruction"
+                android:textStyle="bold"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="25dp"
+                android:textSize="12sp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bt_start"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:text="@string/start"
+                android:textAllCaps="false"
+                android:clickable="true"
+                android:layout_marginRight="24dp"
+                android:layout_marginLeft="24dp"
+                app:cornerRadius="50dp"
+                android:layout_marginTop="30dp"/>
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
 
 
 </LinearLayout>

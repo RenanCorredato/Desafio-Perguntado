@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button_gray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">53dp</item>
+        <item name="android:text">Responder</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:radius">50dp</item>
+        <item name="backgroundTint">@color/gray_light</item>
+
+
+
+    </style>
+
+    <style name="button_blue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">53dp</item>
+        <item name="android:text">Poxima pergunta</item>
+        <item name="textAllCaps">false</item>
+        <item name="backgroundTint">@color/blue_tema</item>
+
+    </style>
+
+</resources>

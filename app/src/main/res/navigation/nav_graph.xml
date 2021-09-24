@@ -9,5 +9,14 @@
         android:id="@+id/firstScreenFragment"
         android:name="com.masterclass.desafioperguntados.FirstScreenFragment"
         android:label="fragment_first_screen"
-        tools:layout="@layout/fragment_first_screen" />
+        tools:layout="@layout/fragment_first_screen" >
+        <action
+            android:id="@+id/action_firstScreenFragment_to_firstQuestionFragment"
+            app:destination="@id/firstQuestionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstQuestionFragment"
+        android:name="com.masterclass.desafioperguntados.FirstQuestionFragment"
+        android:label="fragment_first_question"
+        tools:layout="@layout/fragment_first_question" />
 </navigation>

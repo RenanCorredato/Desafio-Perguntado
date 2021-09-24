@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">DesafioPerguntados</string>
     <string name="question_answers">Pergunta e Respostas</string>
-    <string name="instruction">Responda 10 perguntas veja sua pontuação no fim</string>
-    <string name="start">Start</string>
+    <string name="instruction">Responda 10 perguntas veja sua pontuação no fim!</string>
+    <string name="start">Start!</string>
+    <string name="question_one">Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu reclamis. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. </string>
+    <string name="question_two">Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.</string>
+    <string name="answers">Resposta</string>
+    <string name="self_help">Autoajuda</string>
+    <string name="meat">teste</string>
+    <string name="cheese">test 333</string>
+
 </resources>

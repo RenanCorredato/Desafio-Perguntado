@@ -3,9 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/drawable/button_responds_blue.xml" value="0.2203125" />
+        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/drawable/button_responds_gray.xml" value="0.2203125" />
+        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/drawable/button_selector.xml" value="0.2703125" />
+        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/drawable/radios_blue.xml" value="0.2203125" />
+        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/drawable/radios_gray.xml" value="0.2703125" />
+        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/drawable/radios_green.xml" value="0.2703125" />
+        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/drawable/radios_red.xml" value="0.2203125" />
+        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/drawable/radios_selector.xml" value="0.2703125" />
+        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/drawable/rounded_corner.xml" value="0.2703125" />
         <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/layout/fragment_first_question.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/layout/fragment_first_screen.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/layout/fragment_first_question.xml" value="0.264" />
+        <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/layout/fragment_first_screen.xml" value="0.2" />
         <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/layout/fragment_punctuation.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/renan/Desktop/Use Academy/Desafio Perguntados/app/src/main/res/layout/fragment_second_question.xml" value="0.13020833333333334" />
       </map>
